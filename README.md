@@ -1,6 +1,6 @@
 # **EmoChildMex: SER over Mexican Spanish**
 
-![](/assets/TED.png)
+![](/assets/tem.png)
 
 ## Description
 EmoChildMex represents a groundbreaking initiative aimed at advancing the understanding and recognition of emotional expressions in Mexican Spanish, with a particular focus on children's speech. This project introduces TriEmoMex, a comprehensive database that amalgamates three distinct databases to create a unified resource tailored to the nuances of Mexican Spanish in a child demographic.
