@@ -1,4 +1,6 @@
-# **EmoChildMEx: SER over Mexican Spanish**
+# **EmoChildMex: SER over Mexican Spanish**
+
+![](/assets/TED.png)
 
 ## Description
 EmoChildMex represents a groundbreaking initiative aimed at advancing the understanding and recognition of emotional expressions in Mexican Spanish, with a particular focus on children's speech. This project introduces TriEmoMex, a comprehensive database that amalgamates three distinct databases to create a unified resource tailored to the nuances of Mexican Spanish in a child demographic.
@@ -6,12 +8,12 @@ EmoChildMex represents a groundbreaking initiative aimed at advancing the unders
 ## Database
 TriEmoMex is a novel database that integrates three pre-existing databases. This integration aims to enrich the data available for research and application in emotion recognition technologies.
 
-**Databases used: **
+**Databases used:**
 * **Mexican Emotional Speech Database (MESD)** 
 * **IESC-Child-2: Emotional Children's Speech for Personality Assessment Corpus** *The data base is a propiertary of the Centro de Investigación Científica y de Educación Superior de Ensenada, Baja California, "CICESE"*
 * **EmoWisconsin Database**. *The Emowisconsin Data Base is a property of the Instituto Nacional de Astrofíscia, Óptica y Electrónica - CONCACYT, México*.
 
-**Emotions: **
+**Emotions:**
 * Neutral
 * Sadness
 * Anger
@@ -20,6 +22,8 @@ TriEmoMex is a novel database that integrates three pre-existing databases. This
 * Happiness
 * Disgust
 * None
+
+![Distribution of labels with augmented data](/assets/data.png)
 
 ## Deep Learning Created
 Four CNN models were created and seigned with the objective of enhancing the accuracy and realibility of emotion detection across eight identified emotions.
@@ -43,7 +47,7 @@ The following table showcases the performance of the four Deep Learning models i
 
 
 ## Contributing
-We welcome contributions from researchers, developers, and practitioners across disciplines interested in emotion recognition, linguistics, and child psychology. Potential areas for contributions include:
+I welcome contributions from researchers, developers, and practitioners across disciplines interested in emotion recognition, linguistics, and child psychology. Potential areas for contributions include:
 
 * **Model Enhancement**: Innovations in Deep Learning models that could further improve emotion recognition accuracy.
 * **Database Expansion**: Contributions to the TriEmoMex database, whether through the addition of new samples, refinement of existing data, or the integration of new databases.
@@ -52,3 +56,12 @@ We welcome contributions from researchers, developers, and practitioners across 
 Contributors are encouraged to fork the repository, propose changes via pull requests, and participate in discussions to drive the project forward.
 
 ## License
+
+*We like to thank to Duville, Alonso-Valerdi and Ibarra-zarate for their dedication of the collection of the Mexican Emotional Speech Database*
+*Duville, M.M.; Alonso-Valerdi, L.M.; Ibarra-Zarate, D.I. Mexican Emotional Speech Database Based on Semantic, Frequency, Familiarity, Concreteness, and Cultural Shaping of Affective Prosody. Data 2021, 6, 130.*
+
+*We like to thank CICESE for their dedication of the collection of IESC-Child-2 Corpus.* 
+*Pérez-Espinosa, H., Gutiérres-Serafín, B., Martínez-miranda, J., & Espinosa-Curiel, I. E. (2022). Automatic children's personality assessment from emotional speech. Expert Systems with Applications, 187, 115885*
+
+*We like to thank Dr. Humberto Pérez-Espinosa, Dr. Carlos A. ReyesGarcia, and Dr. Luis Villaseñor-Pineda, for their dedication of the collection of the Emowisconsin data base.*
+*Pérez-Espinosa, Humberto, Carlos Alberto ReyesGarcía, and Luis Villaseñor-Pineda. "Emowisconsin: an emotional children speech database in mexican spanish." In Affective Computing and Intelligent Interaction, pp. 62-71. Springer Berlin Heidelberg, 2011. ISSN 0302-9743.*
